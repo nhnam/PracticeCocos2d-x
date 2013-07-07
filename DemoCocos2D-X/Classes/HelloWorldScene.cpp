@@ -1,9 +1,7 @@
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
 using namespace CocosDenshion;
-
 using namespace cocos2d;
-using namespace CocosDenshion;
 
 CCScene* HelloWorld::scene()
 {
@@ -35,6 +33,8 @@ bool HelloWorld::init()
 
     _ship = CCSprite::createWithSpriteFrameName("SpaceFlier_sm_1.png");
     CCSize winSize = CCDirector::sharedDirector()->getWinSize();
+    CCLOG("Win size: %0.2f, %0.2f", winSize.width, winSize.height);
+    
     _ship->setPosition(ccp(winSize.width * 0.1, winSize.height * 0.5));
     _batchNode->addChild(_ship, 1);
     

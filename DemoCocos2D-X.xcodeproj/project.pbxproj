@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D80563E21789514000D4453E /* GameLayerScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D80563E11789514000D4453E /* GameLayerScene.cpp */; };
+		D80563E5178959B000D4453E /* hipster.plist in Resources */ = {isa = PBXBuildFile; fileRef = D80563E3178959B000D4453E /* hipster.plist */; };
+		D80563E6178959B000D4453E /* hipster.png in Resources */ = {isa = PBXBuildFile; fileRef = D80563E4178959B000D4453E /* hipster.png */; };
 		D89386831789368F00AABC4C /* laser_ship.wav in Resources */ = {isa = PBXBuildFile; fileRef = D893866D1789368F00AABC4C /* laser_ship.wav */; };
 		D89386841789368F00AABC4C /* explosion_large.wav in Resources */ = {isa = PBXBuildFile; fileRef = D893866E1789368F00AABC4C /* explosion_large.wav */; };
 		D89386851789368F00AABC4C /* SpaceGame.wav in Resources */ = {isa = PBXBuildFile; fileRef = D893866F1789368F00AABC4C /* SpaceGame.wav */; };
@@ -30,6 +33,7 @@
 		D89386971789368F00AABC4C /* Arial.png in Resources */ = {isa = PBXBuildFile; fileRef = D89386811789368F00AABC4C /* Arial.png */; };
 		D89386981789368F00AABC4C /* Arial.fnt in Resources */ = {isa = PBXBuildFile; fileRef = D89386821789368F00AABC4C /* Arial.fnt */; };
 		D893869B178937E700AABC4C /* CCParallaxNodeExtras.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8938699178937E700AABC4C /* CCParallaxNodeExtras.cpp */; };
+		D8938A5C17894B8100AABC4C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8938A5B17894B8000AABC4C /* Default-568h@2x.png */; };
 		D8F86B4A17883B8500E1E708 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F86B4917883B8500E1E708 /* QuartzCore.framework */; };
 		D8F86B4C17883B8500E1E708 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F86B4B17883B8500E1E708 /* OpenGLES.framework */; };
 		D8F86B4E17883B8500E1E708 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F86B4D17883B8500E1E708 /* OpenAL.framework */; };
@@ -306,6 +310,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D80563E01789513200D4453E /* GameLayerScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameLayerScene.h; sourceTree = "<group>"; };
+		D80563E11789514000D4453E /* GameLayerScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameLayerScene.cpp; sourceTree = "<group>"; };
+		D80563E3178959B000D4453E /* hipster.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = hipster.plist; path = Resources/hipster.plist; sourceTree = "<group>"; };
+		D80563E4178959B000D4453E /* hipster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hipster.png; path = Resources/hipster.png; sourceTree = "<group>"; };
 		D893866D1789368F00AABC4C /* laser_ship.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = laser_ship.wav; path = Resources/laser_ship.wav; sourceTree = "<group>"; };
 		D893866E1789368F00AABC4C /* explosion_large.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = explosion_large.wav; path = Resources/explosion_large.wav; sourceTree = "<group>"; };
 		D893866F1789368F00AABC4C /* SpaceGame.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SpaceGame.wav; path = Resources/SpaceGame.wav; sourceTree = "<group>"; };
@@ -330,6 +338,7 @@
 		D89386821789368F00AABC4C /* Arial.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Arial.fnt; path = Resources/Arial.fnt; sourceTree = "<group>"; };
 		D8938699178937E700AABC4C /* CCParallaxNodeExtras.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CCParallaxNodeExtras.cpp; path = Classes/CCParallaxNodeExtras.cpp; sourceTree = "<group>"; };
 		D893869A178937E700AABC4C /* CCParallaxNodeExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCParallaxNodeExtras.h; path = Classes/CCParallaxNodeExtras.h; sourceTree = "<group>"; };
+		D8938A5B17894B8000AABC4C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D8F86B4617883B8500E1E708 /* DemoCocos2D-X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DemoCocos2D-X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F86B4917883B8500E1E708 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D8F86B4B17883B8500E1E708 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -944,9 +953,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D80563DE1789510600D4453E /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		D80563DF1789510F00D4453E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D80563E01789513200D4453E /* GameLayerScene.h */,
+				D80563E11789514000D4453E /* GameLayerScene.cpp */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
 		D8F86B3D17883B8400E1E708 = {
 			isa = PBXGroup;
 			children = (
+				D8938A5B17894B8000AABC4C /* Default-568h@2x.png */,
 				D8F86B5917883B8500E1E708 /* DemoCocos2D-X */,
 				D8F86B4817883B8500E1E708 /* Frameworks */,
 				D8F86B4717883B8500E1E708 /* Products */,
@@ -991,28 +1017,29 @@
 		D8F86B5A17883B8500E1E708 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D893866D1789368F00AABC4C /* laser_ship.wav */,
-				D893866E1789368F00AABC4C /* explosion_large.wav */,
-				D893866F1789368F00AABC4C /* SpaceGame.wav */,
+				D80563E3178959B000D4453E /* hipster.plist */,
+				D80563E4178959B000D4453E /* hipster.png */,
+				D8F86B6F17883B8500E1E708 /* iTunesArtwork */,
+				D893867A1789368F00AABC4C /* explosion_large.caf */,
+				D893867B1789368F00AABC4C /* explosion_small.caf */,
+				D89386791789368F00AABC4C /* laser_enemy.caf */,
+				D89386781789368F00AABC4C /* laser_ship.caf */,
+				D89386761789368F00AABC4C /* powerup.caf */,
+				D89386771789368F00AABC4C /* shake.caf */,
+				D893867C1789368F00AABC4C /* SpaceGame.caf */,
+				D89386751789368F00AABC4C /* Sprites.pvr.ccz */,
+				D89386821789368F00AABC4C /* Arial.fnt */,
+				D8F86B7117883B8500E1E708 /* Info.plist */,
+				D89386741789368F00AABC4C /* Sprites.plist */,
 				D89386701789368F00AABC4C /* Stars1.plist */,
 				D89386711789368F00AABC4C /* Stars2.plist */,
 				D89386721789368F00AABC4C /* Stars3.plist */,
+				D89386811789368F00AABC4C /* Arial.png */,
 				D89386731789368F00AABC4C /* bg_front_spacedust.png */,
-				D89386741789368F00AABC4C /* Sprites.plist */,
-				D89386751789368F00AABC4C /* Sprites.pvr.ccz */,
-				D89386761789368F00AABC4C /* powerup.caf */,
-				D89386771789368F00AABC4C /* shake.caf */,
-				D89386781789368F00AABC4C /* laser_ship.caf */,
-				D89386791789368F00AABC4C /* laser_enemy.caf */,
-				D893867A1789368F00AABC4C /* explosion_large.caf */,
-				D893867B1789368F00AABC4C /* explosion_small.caf */,
-				D893867C1789368F00AABC4C /* SpaceGame.caf */,
+				D89386801789368F00AABC4C /* bg_galaxy.png */,
 				D893867D1789368F00AABC4C /* bg_planetsunrise.png */,
 				D893867E1789368F00AABC4C /* bg_spacialanomaly.png */,
 				D893867F1789368F00AABC4C /* bg_spacialanomaly2.png */,
-				D89386801789368F00AABC4C /* bg_galaxy.png */,
-				D89386811789368F00AABC4C /* Arial.png */,
-				D89386821789368F00AABC4C /* Arial.fnt */,
 				D8F86B5B17883B8500E1E708 /* CloseNormal.png */,
 				D8F86B5D17883B8500E1E708 /* CloseSelected.png */,
 				D8F86B5F17883B8500E1E708 /* Default.png */,
@@ -1023,8 +1050,9 @@
 				D8F86B6917883B8500E1E708 /* Icon-Small@2x.png */,
 				D8F86B6B17883B8500E1E708 /* Icon.png */,
 				D8F86B6D17883B8500E1E708 /* Icon@2x.png */,
-				D8F86B6F17883B8500E1E708 /* iTunesArtwork */,
-				D8F86B7117883B8500E1E708 /* Info.plist */,
+				D893866E1789368F00AABC4C /* explosion_large.wav */,
+				D893866D1789368F00AABC4C /* laser_ship.wav */,
+				D893866F1789368F00AABC4C /* SpaceGame.wav */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -2162,6 +2190,8 @@
 		D8F86EEA17883B8B00E1E708 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D80563DF1789510F00D4453E /* Scenes */,
+				D80563DE1789510600D4453E /* Sprites */,
 				D8938699178937E700AABC4C /* CCParallaxNodeExtras.cpp */,
 				D893869A178937E700AABC4C /* CCParallaxNodeExtras.h */,
 				D8F86EEB17883B8B00E1E708 /* AppDelegate.h */,
@@ -2257,6 +2287,9 @@
 				D89386961789368F00AABC4C /* bg_galaxy.png in Resources */,
 				D89386971789368F00AABC4C /* Arial.png in Resources */,
 				D89386981789368F00AABC4C /* Arial.fnt in Resources */,
+				D8938A5C17894B8100AABC4C /* Default-568h@2x.png in Resources */,
+				D80563E5178959B000D4453E /* hipster.plist in Resources */,
+				D80563E6178959B000D4453E /* hipster.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2517,6 +2550,7 @@
 				D8F86EED17883B8B00E1E708 /* AppDelegate.cpp in Sources */,
 				D8F86EF017883B8B00E1E708 /* HelloWorldScene.cpp in Sources */,
 				D893869B178937E700AABC4C /* CCParallaxNodeExtras.cpp in Sources */,
+				D80563E21789514000D4453E /* GameLayerScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2595,6 +2629,7 @@
 				GCC_PREFIX_HEADER = "DemoCocos2D-X/Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = "DemoCocos2D-X/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/DemoCocos2D-X/libs/cocos2dx/platform/third_party/ios/libraries\"",
@@ -2621,6 +2656,7 @@
 				GCC_PREFIX_HEADER = "DemoCocos2D-X/Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = "DemoCocos2D-X/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/DemoCocos2D-X/libs/cocos2dx/platform/third_party/ios/libraries\"",
