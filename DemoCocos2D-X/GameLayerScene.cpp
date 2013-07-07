@@ -16,6 +16,7 @@ bool GameLayer::init(){
     if(!CCLayer::init()){
         return false;
     }
+    arrSpritesInGame = new cocos2d::CCArray();
     _batchNode = CCSpriteBatchNode::create("hipster.png");
     this->addChild(_batchNode);
     CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("hipster.plist");
@@ -58,5 +59,7 @@ void GameLayer::ccTouchesBegan(cocos2d::CCSet *touches, cocos2d::CCEvent *event)
     location = CCDirector::sharedDirector()->convertToGL(location);
     
     feeble->setPosition(location);
+    arrSpritesInGame->addObject(feeble);
+    CCLOG("Number of sprite: %d", arrSpritesInGame->count());
     this->addChild(feeble);
 }

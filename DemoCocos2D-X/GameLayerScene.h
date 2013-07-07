@@ -10,6 +10,7 @@
 #define DemoCocos2D_X_GameLayer_h
 
 #include "cocos2d.h"
+#include "Box2D.h"
 #include "CCParallaxNodeExtras.h"
 
 USING_NS_CC;
@@ -19,6 +20,7 @@ class GameLayer : public cocos2d::CCLayer
 private:
     cocos2d::CCSpriteBatchNode * _batchNode;
 	cocos2d::CCSprite * _feeble;
+    cocos2d::CCArray *arrSpritesInGame;
     // scheduled Update
     void update(float dt);
 public:
