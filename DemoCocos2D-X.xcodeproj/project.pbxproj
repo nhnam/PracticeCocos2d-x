@@ -452,6 +452,8 @@
 		D805644717895FAD00D4453E /* b2WheelJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2WheelJoint.h; sourceTree = "<group>"; };
 		D805646617895FAD00D4453E /* b2Rope.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2Rope.cpp; sourceTree = "<group>"; };
 		D805646717895FAD00D4453E /* b2Rope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2Rope.h; sourceTree = "<group>"; };
+		D80564A91789606100D4453E /* GLES-Render.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
+		D80564AA1789606100D4453E /* GLES-Render.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "GLES-Render.cpp"; sourceTree = "<group>"; };
 		D893866D1789368F00AABC4C /* laser_ship.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = laser_ship.wav; path = Resources/laser_ship.wav; sourceTree = "<group>"; };
 		D893866E1789368F00AABC4C /* explosion_large.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = explosion_large.wav; path = Resources/explosion_large.wav; sourceTree = "<group>"; };
 		D893866F1789368F00AABC4C /* SpaceGame.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SpaceGame.wav; path = Resources/SpaceGame.wav; sourceTree = "<group>"; };
@@ -2484,6 +2486,8 @@
 		D8F86EEA17883B8B00E1E708 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D80564A91789606100D4453E /* GLES-Render.h */,
+				D80564AA1789606100D4453E /* GLES-Render.cpp */,
 				D80563DF1789510F00D4453E /* Scenes */,
 				D80563DE1789510600D4453E /* Sprites */,
 				D8938699178937E700AABC4C /* CCParallaxNodeExtras.cpp */,
@@ -2968,6 +2972,20 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoCocos2D-X/Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_NAME)/libs/cocos2dx/kazmath/include\"",
+					"\"$(PROJECT_NAME)/libs/cocos2dx\"",
+					"\"$(PROJECT_NAME)/libs/CocosDenshion/include\"",
+					"\"$(PROJECT_NAME)/libs/extensions\"",
+					"\"$(PROJECT_NAME)/libs/cocos2dx/include\"",
+					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/third_party/ios\"",
+					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/ios\"",
+					"\"$(PROJECT_NAME)/libs/Box2D/Common\"",
+					"\"$(PROJECT_NAME)/libs/Box2D/Collision\"",
+					"\"$(SRCROOT)/../\"",
+					"“$(SRCROOT)/../../”",
+					"“$(SRCROOT)/../../box2d”",
+				);
 				INFOPLIST_FILE = "DemoCocos2D-X/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -2982,7 +3000,7 @@
 					"-websockets",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "\"DemoCocos2D-X/libs/Chipmunk/include/chipmunk\"";
+				USER_HEADER_SEARCH_PATHS = "\"DemoCocos2D-X/libs/Chipmunk/include/chipmunk\" \"DemoCocos2D-X/libs/Box2D\"";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2995,6 +3013,20 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DemoCocos2D-X/Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_NAME)/libs/cocos2dx/kazmath/include\"",
+					"\"$(PROJECT_NAME)/libs/cocos2dx\"",
+					"\"$(PROJECT_NAME)/libs/CocosDenshion/include\"",
+					"\"$(PROJECT_NAME)/libs/extensions\"",
+					"\"$(PROJECT_NAME)/libs/cocos2dx/include\"",
+					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/third_party/ios\"",
+					"\"$(PROJECT_NAME)/libs/cocos2dx/platform/ios\"",
+					"\"$(PROJECT_NAME)/libs/Box2D/Common\"",
+					"\"$(PROJECT_NAME)/libs/Box2D/Collision\"",
+					"\"$(SRCROOT)/../\"",
+					"“$(SRCROOT)/../../”",
+					"“$(SRCROOT)/../../box2d”",
+				);
 				INFOPLIST_FILE = "DemoCocos2D-X/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -3009,7 +3041,7 @@
 					"-websockets",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "\"DemoCocos2D-X/libs/Chipmunk/include/chipmunk\"";
+				USER_HEADER_SEARCH_PATHS = "\"DemoCocos2D-X/libs/Chipmunk/include/chipmunk\" \"DemoCocos2D-X/libs/Box2D\"";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
