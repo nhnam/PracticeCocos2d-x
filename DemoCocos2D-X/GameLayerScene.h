@@ -10,7 +10,6 @@
 #define DemoCocos2D_X_GameLayer_h
 
 #include "cocos2d.h"
-#include "Box2D.h"
 #include "CCParallaxNodeExtras.h"
 
 USING_NS_CC;
